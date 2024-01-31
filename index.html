@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>the SK Portfolio</title>
+</head>
+<body>
+    
+    <nav id="nav-menu">
+        <div class="logo">
+            <h2>the SK.</h2></div>
+        <ul class="nav-links">
+            <li><a class="menuItem" href="#projects">Projekt</a></li>
+            <li><a class="menuItem" href="#about">Om Mig</a></li>
+            <li><a class="menuItem" href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <hr />
+    <nav id="hamburger-nav">
+        <div class="logo">the SK.</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a class="menuItem" onclick="toggleMenu" href="#projects">Projekt</a></li>
+                <li><a class="menuItem" onclick="toggleMenu" href="#about">Om Mig</a></li>
+                <li><a class="menuItem" onclick="toggleMenu" href="#contact">Kontakt</a></li>
+            </div>
+        </div>
+    </nav>
+    <div id="profile">
+        <div class="hero-text">
+          
+            <span class="text-title">Hejsan!</span>
+            <h2 class="title">Su-Arpha Kanklap</h2>
+            <h1 class="title">Junior Frontend Developer </h1>
+            <div class="btn-container">
+                <button class="btn-colorBlack" onclick="window.open('./assets/CV-SK.pdf')">Ladda ner CV</button>
+                <button class="btn-colorWhite" onclick="location.href('./#contact')">Kontakt Info.</button>
+            </div>
+            <div class="social-container">
+                <i class="fa-brands fa-linkedin" onclick="location.href='https://linkedin.com/in/suarpha-kanklap-529a32196/'"></i>
+                <i class="fa-brands fa-github" onclick="location.href='https://github.com/SuarPha'"></i>
+            </div>
+        </div>
+        <div class="hero-picture">
+            <img class="profile-img" src="./assets/img-2.png" alt="Su-Arpha Kanklap profile img">
+        
+        </div>
+    </div>
+    <hr>
+    <!-- About me -->
+    <div id="about">
+        <div class="about-content-img">
+            <img class="about-me-img" src="./assets/img-1.png" alt="Profile img">
+        </div>
+        <div class="about-content-box">
+            <h1>Om mig</h1>
+            <p>Har avslutat webbutvecklare inom e-handel utbildning. <br> Har byggt erfarenhet det senaste året samt utvecklat flera kompetenser såsom webbutveckling, förmågan att arbeta i ett team och kommunikationsförmåga. Letar nu efter en organisation som kan erbjuda en roll med mer ansvar och ett långvarigt kontrakt.</p>
+           
+            <div class="about-detail-box">
+                <div class="text-detail">
+                    <i class="fa-solid fa-timeline"></i>
+                    <h2>Erfarenhet</h2>
+                    <p>2+ years</p>
+                    <span>Frontend Developer</span>
+                </div>
+                <div class="text-detail">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>Utbildning</h2>
+                    <p>Web Development- 400 HVE-credits.</p>
+                    <span>Economics BA.</span>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <hr>
+    <!-- Skills -->
+    <div id="skills">
+        <h1 class="title">Kompetens</h1>
+        <div class="skill-container">
+            <div class="skill-box-item">
+               <h2 class="title-skill">Frontend Development</h2>
+               <div class="skill-detail">
+             <div class="ex-div">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <h3>HTML</h3>
+                    <p>Experience</p>
+                </div>
+            </div>
+            <div class="ex-div">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <h3>CSS/SCSS</h3>
+                    <p>Experience</p>
+                </div>
+            </div>
+                
+            <div class="ex-div">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <h3>JavaScrip</h3>
+                    <p>Basic</p>
+                </div>
+            </div>
+     
+            <div class="ex-div">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <h3>React</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+     
+            <div class="ex-div">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <h3>Bootstrap</h3>
+                    <p>Baaic</p>
+                </div>
+            </div>
+            <div class="ex-div">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <h3>MUI</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+            </div>
+            </div>            
+            <div class="skill-box-item">
+                <h2 class="title-skill">Backend Development</h2>
+                <div class="skill-detail">
+              <div class="ex-div">
+                 <i class="fa-solid fa-code"></i>
+                 <div>
+                     <h3>MySQL</h3>
+                     <p>Experience</p>
+                 </div>
+             </div>
+             <div class="ex-div">
+                 <i class="fa-solid fa-code"></i>
+                 <div>
+                     <h3>MongooDB</h3>
+                     <p>Basic</p>
+                 </div>
+             </div>
+                 
+             <div class="ex-div">
+                 <i class="fa-solid fa-code"></i>
+                 <div>
+                     <h3>NodeJs</h3>
+                     <p>Intermediate</p>
+                 </div>
+             </div>
+      
+             <div class="ex-div">
+                 <i class="fa-solid fa-code"></i>
+                 <div>
+                     <h3>PHP</h3>
+                     <p>Basic</p>
+                 </div>
+             </div>
+             </div>
+             </div>  
+                     
+        </div>
+    </div>
+    <hr>
+    <!-- Projects -->
+    <div id="projects">
+        <h1 class="title">Projekt</h1>
+        <div class="project-container">
+            <div>
+                <div class="project-item">
+                    <img class="img-demo" src="./assets/html-js.jpeg" alt="">
+                </div>  
+                <div class="btn"> <span>Html,SCSS, JavaScript</span></div>
+                <div class="header-action-aria">
+                    <a href="https://github.com/SuarPha/flowery-webstore-html-sass-js" class="btn">Github</a>
+                    <a href="https://suarpha.github.io/flowery-webstore-html-sass-js/" class="btn">Live Demo</a>
+                </div>  
+            </div>   
+            <div>
+                
+                <div class="project-item">
+                    <img class="img-demo" src="./assets/wordpress-project.jpeg" alt="">
+                </div> 
+                <div class="btn"> <span>Wordpress</span></div>
+                <div class="header-action-aria">
+                    <a href="https://morena.se/" class="btn">Besök >> </a>
+                    <a href="https://morena.se/" class="btn">Click >> </a>
+                </div>  
+            </div>   
+            <div>
+                <div class="project-item">
+                    <img class="img-demo" src="./assets/react-project.jpeg" alt="">
+                </div>  
+                <div class="btn"> <span>React</span></div>
+                <div class="header-action-aria">
+                    <a href="https://github.com/SuarPha/React-sneakers-webbshop-miniProject" class="btn">Github</a>
+                    <a href="https://suarpha.github.io/React-sneakers-webbshop-miniProject/" class="btn">Live Demo</a>
+                </div>  
+            </div>   
+  
+        </div>
+    </div>
+    <hr>
+    <div id="contact">
+        <p class="text-content">Get In Touch</p>
+        <h1 class="title">Kontakt</h1>  
+        <div class="contact-box">
+            <div>
+                <i class="fa-solid fa-at"></i>
+                <span>suarpa.golf@gmail.com</span>
+            </div>
+            <div>
+                <i class="fa-brands fa-linkedin" onclick="location.href='https://linkedin.com/in/suarpha-kanklap-529a32196/'"></i>
+                <span>Linkedin</span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+            <h3>the SK.</h3>
+            </div>
+            <ul class="footer-item">
+                <li><a class="menuItem" href="#projects">Projekt</a></li>
+                <li><a class="menuItem" href="#about">Om Mig</a></li>
+                <li><a class="menuItem" href="#contact">Kontakt</a></li>
+            </ul>
+            <div class="footer-item">
+                <i class="fa-brands fa-linkedin"></i>  
+                <i class="fa-brands fa-square-github"></i>
+            </div>
+        </div>
+        <hr>
+        <p class="text-content">&copy; 2023 | All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
